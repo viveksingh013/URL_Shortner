@@ -17,7 +17,7 @@ const app = express();
 app.use(cors({
     origin: [
         'http://localhost:5173', // Local development URL
-        'https://urlmon.vercel.app' //deployment URL
+        'https://url-shortner-dusky-ten.vercel.app/' //deployment URL
     ],
     credentials: true // 👈 this allows cookies to be sent
 }));
