@@ -19,4 +19,3 @@ export const loginUser = async (email, password) => {
     const token = signToken({id: user._id})
     return {token,user}
 }
-

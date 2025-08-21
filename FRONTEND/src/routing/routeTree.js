@@ -13,4 +13,3 @@ export const routeTree =rootRoute.addChildren([
     authRoute, 
     dasboardRoute
 ])
-
